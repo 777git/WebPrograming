@@ -1,0 +1,38 @@
+
+
+* {
+	font-family: 'Arial Narrow Bold', sans-serif;
+	
+}
+body { 
+  background: url(reg.jpg) ; 
+  
+  }
+.form-wrap {
+    width: 50px;
+      
+       margin-left: 100px;
+       margin-right: 100px;
+       background-color: rgb(194, 194, 218);
+       
+  }
+  .form-wrap *{transition: .1s linear}
+  .profile {
+    text-align: center;
+    margin-left: 100px;
+       margin-right: 100px;
+    width: 550px;
+  }
+  form {
+	margin-top: 60px;
+    margin-left:auto;
+    margin-right: auto;
+    background: rgb(255, 255, 255);
+    float: center;
+    width: calc(300px);
+    padding: 30px;
+    color: #7b7b7b; 
+  }
+
+
+
