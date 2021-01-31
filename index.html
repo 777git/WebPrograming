@@ -3,11 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/button.css">
 	<title>Enguide TODAY</title>
 </head>
 <body>
 
 <header class="header">
+	<button id="light" class="light"onclick="DarkTema()">DarkTema</button>
+	<button id="dark"class="dark" onclick="LightTema()">LightTema</button>
 	<div class="container">
 		<div class="header_inner">
 			<div> 
@@ -18,10 +21,10 @@
 						<summary><div id='logo'>Enguide Today</div></summary>
 							
 							<div class="mpanel">
-								<a class="mburgermenu_inner" href="#">Меню</a>
-								<a class="mburgermenu_inner" href="#">Передплата</a>
-								<a class="mburgermenu_inner" href="#">Новина дня</a>
-								<a class="mburgermenu_inner" href="#">Контакти</a>
+								<a class="mburgermenu_inner" href="index.html">Меню</a>
+								<a class="mburgermenu_inner" href="plata.html">Передплата</a>
+								<a class="mburgermenu_inner" href="newsd.html">Новина дня</a>
+								<a class="mburgermenu_inner" href="registration.html">Реєстрація</a>
 							</div>
 					</details>
 					
@@ -37,10 +40,10 @@
                                     <a class="nav_inner_sub" id="nw3"href="#">Відео</a>
                                     <a class="nav_inner_sub" id="nw4"href="#">Інтерв'ю</a>
                                 </div>
-				<a class="nav_link" href="#">Меню</a>
-				<a class="nav_link" href="#">Передплата</a>
-				<a class="nav_link" href="#">Новина дня</a>
-				<a class="nav_link" href="#">Контакти</a>
+				<a class="nav_link" href="index.html">Меню</a>
+				<a class="nav_link" href="plata.html">Передплата</a>
+				<a class="nav_link" href="newsd.html">Новина дня</a>
+				<a class="nav_link" href="registration.html">Реєстрація</a>
 			</nav>
 		</div>
 	</div>
@@ -54,7 +57,7 @@
 			</div>
 		</div>
 		<div class="okrem">
-			<div class="mininew1"style="background-image: url('assets/images/2.jpg');"></div>
+			<div class="mininew1"style="background-image: url('assets/images/2.jpg') "></div>
 			<div class="ghj">
 				<div class="newtext1">У США помер 41-річний конгресмен від корона вірусу.</div>
 				<div class="newtext2">Нещодавно обраний американський конгресмен Люк Летлоу помер від COVID-19, у віці 41 року. Він став першим членом Конгресу, який помер від цієї хвороби. Про це в середу, 30 грудня, повідомляє ВВС.</div>
@@ -63,7 +66,7 @@
 
 		</div>
 		<div class="okrem">
-			<div class="mininew2"style="background-image: url('assets/images/3.jpg');"></div>
+			<div class="mininew2"style="background-image: url('assets/images/3.jpg') ;"></div>
 			<div class="ghj">
 				<div class="newtext1">У світі зареєстрестровоно 82 мільйони хворих на коронавірус.</div>
 				<div class="newtext2">Станом на ранок 30 грудня у світі зафіксовали 82 327 231 випадок коронавірусу. Про це свідчать дані Worldometer, повідомляє Укрінформ. Зокрема 1 796 543 смертей і 58 338 453 видужань.</div>
@@ -79,5 +82,6 @@
 		<div class="right">BoratAbdiev@gamil.kazah </div>
 	</div>
 </div>
+<script type="text/javascript" src="temas.js"></script>
 </body>
 </html>

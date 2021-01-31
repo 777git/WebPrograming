@@ -1,0 +1,25 @@
+.light{
+
+    background: greenyellow;
+    font-size: 20px;
+    padding: 20px 35px;
+    color: black;
+    position: sticky;
+    display: none;
+    top: 0px;
+    align-self: center;
+    left: 1700px;
+    z-index: 1;
+}
+.dark{
+    
+    background: greenyellow;
+    font-size: 20px;
+    padding: 20px 35px;
+    color: black;
+    border: solid;
+    position: sticky;
+    display: block;
+    top: 0px;
+    z-index: 1;
+}

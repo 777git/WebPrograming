@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	background: silver;
+	background: black;
 	/*! font-size: 15px; */
 	line-height: 1.6;
 	/*! color: #333; */
@@ -23,7 +23,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Container */
-.container {
+.container1 {
+	
 	
 	width: 100%;
 	/*! max-width: 1200px; */
@@ -34,6 +35,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
+
 .container2 {
 	background-color: white;
 	width: 95%;
@@ -41,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 auto;
 	flex-direction: column;
 	display: flex;
-	justify-content: center;
+	justify-content: center;e
 	padding-bottom: 20px;
 	/*! align-content: center; */
 	/*! align-items: center; */
@@ -62,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 	/*! background-position: top, center; */
 	/*! margin: 0px; */
 	/*! padding: 0px; */
-	width: 630px;
+	width: 100%;
 	height: 360px;
 	/*! background-size: cover; */
 	background: 
@@ -71,6 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 23px;
 	display: flex;
 	font-family: Arial;
+	text-align: center;
 	/*! align-self: center; */
 	/*! text-align: bottom; */
 	/*! display: flex; */
@@ -86,7 +90,11 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 	/*! align-items: revert; */
 	align-self: flex-end;
-	margin-left: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+
 }
 
 /* Header */
@@ -117,10 +125,12 @@ h1, h2, h3, h4, h5, h6 {
 	 font-size: 20px;
 	 text-transform: uppercase;
 	 text-align: center;
-	 justify-items: center;
-	 display: flex;
-	 justify-content: center;
+	 /*! justify-items: center; */
+	 /*! display: flex; */
+	 /*! justify-content: center; */
 	 display: block;
+	 color: white;
+	 /*! text-color: red; */
 	}
  
  .nav_link {
@@ -133,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
  }
  
  .nav_link:hover {
-	 color: #808080;
+	 color: yellow;
  }
  
  
@@ -228,8 +238,10 @@ details[open] summary::before {
 	/*background: 
 	url("../images/2.jpg")center no-repeat;*/
 	margin: 0;
-	width: 360px;
-	height: 240px;
+	width: 60%;
+	
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 
@@ -237,8 +249,10 @@ details[open] summary::before {
 	/*background:
 	url("../images/3.jpeg") center;*/
 	margin: 0;
-	width: 360px;
-	height: 240px;
+	width: 60%;
+	
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 
@@ -265,20 +279,23 @@ details[open] summary::before {
 
 .okrem {
 	display: flex;
-	max-width: 1200px;
-	width: 690px;
+	
+	width: 60%;
 	height: 300px;
 	border: solid 3px;
 	margin-top: 20px;
 	padding: 30px;
+	background: white;
+	margin-bottom: 20px;
 }
 
 
 .ghj {
 	
-	width: 270px;
+	width: 50%;
 	padding-left: 10px;
 	padding-top: 2px;
+	
 }
 
 
@@ -291,18 +308,104 @@ details[open] summary::before {
 	padding-right: 150px;
 }
 
+
+
+
 /* Media zaput */
 
-@media screen and (max-width:780px) {
-    
+@media screen and (max-width:1280px) {
+    .mininew1 {
+	/*background: 
+	url("../images/2.jpg")center no-repeat;*/
+	margin: 0;
+	width: 100%;
+	
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+
+    .mininew2 {
+	/*background: 
+	url("../images/3.jpg")center no-repeat;*/
+	margin: 0;
+	width: 100%;
+	
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+
+
     .container2 {
-        background-color: silver;
+        background-color: rgb(8, 209, 24);
+	width: 95%;
+	/*! max-width: 1200px; */
+	margin: 0 auto;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+
+	/*! align-content: center; */
+	/*! align-items: center; */
+	
+	align-items: center;
     }
 	.mburger {
 	display: block;
 	}
 	.nav {
 	 display: none;
+	}
+	.intro{
+		text-align: 10;
+	}
+	.ghj {
+	
+		width: 50%;
+		padding-left: 10px;
+		padding-top: 2px;
+		font-size: 13px;
+	}
+
+
+
+}
+
+@media screen and (max-width:780px) {
+    .mininew1 {
+	/*background: 
+	url("../images/2.jpg")center no-repeat;*/
+	margin: 0;
+	width: 100%;
+	
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+
+    .mininew2 {
+	/*background: 
+	url("../images/3.jpg")center no-repeat;*/
+	margin: 0;
+	width: 100%;
+	
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+
+    .container2 {
+        background-color: rgb(245, 209, 9);
+    }
+	.mburger {
+	display: block;
+	}
+	.nav {
+	 
+	}
+	.ghj {
+	
+		width: 50%;
+		padding-left: 10px;
+		padding-top: 2px;
+		font-size: 12px;
 	}
 
 
@@ -347,6 +450,8 @@ details[open] summary::before {
     /*! background: #404040; */
     /*! margin-top: 20px; */
     padding-top: 20px;
+    color: white;
+    /*! margin: 0; */
 }
 
 .subnav-child a {
@@ -356,6 +461,8 @@ details[open] summary::before {
 .subnav:hover .subnav-child {
     display: block;
     transition-delay: 3s;
+    margin-top: -10px;
+    /*! margin-right: -19px; */
 }
 
 .nav_inner_sub {
